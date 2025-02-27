@@ -1,0 +1,62 @@
+.header-section {
+    height: 150px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: #363636;
+    text-align: center;
+    display: flex;
+}
+
+.footer-section {
+    height: 40px;
+    width: 100vw;
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+}
+
+.footer-section .footer-msg {
+    font-size: 18px;
+    margin: 0px;
+    color: #b9c2c6;
+}
+
+.header-logo {
+    width: 85px;
+    height: 85px;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.cart-logo {
+    filter: invert(100%);
+    width: 45px;
+    height: 50px;
+    align-self: center;
+    position: fixed;
+    right: 30px;
+}
+
+.header-content {
+    align-self: center;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.header-content .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.header-content .subtitle {
+    font-size: 15px;
+    margin-top: -25px;
+    font-weight: bold;
+    color: #fff;
+}
