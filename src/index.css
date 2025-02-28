@@ -20,3 +20,31 @@ body {
   padding: 0px;
   display: flex;
 }
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+  width: 6px;  /* Width of the vertical scrollbar */
+  height: 6px; /* Height of the horizontal scrollbar */
+}
+
+/* Style the track (the background part of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;  /* Rounded corners */
+}
+
+/* Style the draggable part of the scrollbar (the thumb) */
+::-webkit-scrollbar-thumb {
+  background: #e5be07;        /* Gray color for the thumb */
+  border-radius: 10px;     /* Rounded corners */
+}
+
+/* On hover, change the thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background: #e5be07;        /* Darker gray when hovered */
+}
+
+/* Style the bottom-right corner where both scrollbars meet */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;  /* Same color as the track */
+}

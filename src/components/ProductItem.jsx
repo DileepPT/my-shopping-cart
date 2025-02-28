@@ -8,7 +8,7 @@ const ProductItem = ({index,style}) => {
     const {navigateTo} = PageNavigator();
 
     const handleItemSelection = ()=>{
-        navigateTo(NAV_PATH.PRODUCT_DETAILS.replace('$id',products[index].id));
+        navigateTo(NAV_PATH.PRODUCT_DETAILS.replace('$id',products[index].id),products[index]);
     }
 
     return (

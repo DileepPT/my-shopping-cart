@@ -1,14 +1,22 @@
-import useFetchProduct from "../hooks/useFetchProducts"
 import '../styles/ProductDetails.css'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import { useLocation } from "react-router-dom"
+import ImageCarousal from "../components/ImageCarousal"
 
-const ProductDetailsScreen = () => {
-    const { products } = useFetchProduct();
+const ProductDetailsScreen = (props) => {
+
+    const data = useLocation().state.data;
 
     return (<div className="details-container">
         <Header title='Product Details'></Header>
-        <p>{products[0].title}</p>
+        <div className="details">
+            <label className="detail-title">{data.title}</label>
+            <ImageCarousal product={data}></ImageCarousal>
+            <div className="details-description">
+
+            </div>
+        </div>
         <Footer msg=''></Footer>
 
     </div>);

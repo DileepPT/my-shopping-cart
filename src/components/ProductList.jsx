@@ -8,10 +8,6 @@ function ProductList() {
 
     const {products, hasMoreContent, loadMoreProducts} = useFetchProduct();
 
-    // const rowItem = ({ index, style }) => (
-    //     <ProductItem products={products} index={index} style={style}></ProductItem>
-    // );
-
     const renderRowItem = ({index,style})=>{
         return <ProductItem index={index} style={style}></ProductItem>
     }

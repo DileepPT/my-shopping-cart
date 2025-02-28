@@ -16,7 +16,7 @@ export const ProductProvider = ({children})=>{
     const getProductList = async()=>{
         try {
             //https://dummyjson.com/products?limit=10&skip=0&select=id,title,description,price,thumbnail
-            const result = await ProductService.get(`/products?limit=${MAX_COUNT}&skip=${skipLimit}&select=id,title,description,price,thumbnail`);
+            const result = await ProductService.get(`/products?limit=${MAX_COUNT}&skip=${skipLimit}&select=id,title,description,price,thumbnail,images`);
             if(result && result.data){
                 const updatedProdctList = [...products,...result.data.products];
                 setProducts(updatedProdctList);
