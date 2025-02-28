@@ -1,8 +1,9 @@
-# React + Vite
+A sample poc created with React + Vite + JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This includes core concepts like golbal state management, Router, Props, Infinite loding list
 
-Currently, two official plugins are available:
+![landing-screen](https://github.com/user-attachments/assets/ce33957c-0701-48d3-a4d4-6cb307940b0b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![details-screen](https://github.com/user-attachments/assets/963dcd9d-ebbc-47c5-b5f7-fceec8454dcb)
+
+
