@@ -4,11 +4,12 @@ import Footer from "../components/Footer"
 import ProductList from "../components/ProductList"
 import '../styles/App.css'
 import useFetchProduct from "../hooks/useFetchProducts"
-import { FOOTER_MSG } from "../constants/constants"
+import { useTranslation } from 'react-i18next'
 
 function ProductListScreen() {
 
   const {getProductList} = useFetchProduct();
+  const {t: translate} = useTranslation();
 
   useEffect(() => {
     getProductList();
@@ -16,9 +17,9 @@ function ProductListScreen() {
 
   return (
     <div className="app">
-      <Header title = 'ReactJS Online Shopping' subtitle = 'Enjoy the shopping'></Header>
+      <Header title = {translate('iAppTitle')} subtitle = {translate('iAppSubtitle')}></Header>
       <ProductList />
-      <Footer msg=''></Footer>
+      <Footer msg={translate('iAuthor')}></Footer>
     </div>
   );
 }

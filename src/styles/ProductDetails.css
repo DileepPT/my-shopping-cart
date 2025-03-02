@@ -16,10 +16,11 @@
 
 .details-container .header-section .title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 22px;
     color: #fff;
+    margin-left: 30px;
 }
 
 .details-container .header-section .subtitle {
@@ -33,6 +34,17 @@
 .details-container .cart-logo {
     display: none;
 }
+
+.details-container .header-back {
+    display: inline;
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    position: fixed;
+    left: 10px;
+}
+
 
 .details {
     margin-top: 10px;

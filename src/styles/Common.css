@@ -30,10 +30,15 @@
     margin-left: 30px;
 }
 
+.header-back {
+    display: none;
+}
+
+
 .cart-logo {
     filter: invert(100%);
-    width: 45px;
-    height: 50px;
+    width: 40px;
+    height: 45px;
     align-self: center;
     position: fixed;
     right: 30px;
@@ -59,4 +64,37 @@
     margin-top: -25px;
     font-weight: bold;
     color: #fff;
+}
+
+.button-lang-en,
+.button-lang-ar {
+    background-color: transparent;
+    border: 1px transparent;
+    color: #e5be07;
+    font-size: 16px;
+    height: 30px;
+    font-weight: bold;
+    position: fixed;
+    right: 30px;
+    top:15px
+}
+
+.button-lang-en:hover,
+.button-lang-en.active,
+.button-lang-ar:hover,
+.button-lang-ar.active,
+.button-lang-en::selection,
+.button-lang-ar::selection {
+    background-color: #e5be07;
+    opacity: 50;
+    border: 1px transparent;
+    border-radius: 3px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.button-lang-en{
+    right: 70px;
 }
