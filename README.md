@@ -1,8 +1,14 @@
-# React + Vite
+A sample ReactJS project for online shopping
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Developed using React + Vite
+# The project includes state, components and props which are the core concepts of React
+# The project includes many dependencies for internationalization, page routing, infinite list, etc
 
-Currently, two official plugins are available:
+Home Screen:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![homescreen](https://github.com/user-attachments/assets/7bdb8c05-3427-4b8a-8644-4910b52c3791)
+
+Details Screen:
+
+![detailscreen](https://github.com/user-attachments/assets/d1b704b7-8ac7-4917-aa37-fff14fee79c0)
+
