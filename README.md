@@ -2,7 +2,7 @@ A sample ReactJS project for online shopping
 
  • Developed using React + Vite <br>
  • The project includes state, components and props which are the core concepts of React<br>
- • The project includes many dependencies for internationalization, page routing, infinite list, etc<br>
+ • The project has used libraries for internationalization, page routing, infinite list, etc<br>
 
 Home Screen:
 
