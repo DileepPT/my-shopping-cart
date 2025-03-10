@@ -11,6 +11,7 @@ function ProductListScreen() {
   const {getProductList} = useFetchProduct();
   const {t: translate} = useTranslation();
 
+
   useEffect(() => {
     getProductList();
   }, [])

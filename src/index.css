@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -21,6 +22,12 @@ body {
   display: flex;
 }
 
+label {
+  color: black;
+  text-align: start;
+}
+
+
 /* Style the entire scrollbar */
 ::-webkit-scrollbar {
   width: 6px;  /* Width of the vertical scrollbar */
@@ -35,16 +42,34 @@ body {
 
 /* Style the draggable part of the scrollbar (the thumb) */
 ::-webkit-scrollbar-thumb {
-  background: #e5be07;        /* Gray color for the thumb */
+  background: #ffd92e;        /* Gray color for the thumb */
   border-radius: 10px;     /* Rounded corners */
 }
 
 /* On hover, change the thumb color */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e5be07;        /* Darker gray when hovered */
+  background: #ffd92e;        /* Darker gray when hovered */
 }
 
 /* Style the bottom-right corner where both scrollbars meet */
 ::-webkit-scrollbar-corner {
   background: #f1f1f1;  /* Same color as the track */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.Toastify__progress-bar {
+  background-color: #ffe054 !important; 
+}
+
+.Toastify__toast-icon--success svg {
+  fill: #ffe054 !important; /* Modify with your preferred color */
 }

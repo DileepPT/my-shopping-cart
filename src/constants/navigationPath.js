@@ -1,3 +1,4 @@
 export const NAV_PATH = Object.freeze({
-    PRODUCT_DETAILS : '/details/$id'
+    PRODUCT_DETAILS : '/details/$id',
+    CART : '/cart'
 });

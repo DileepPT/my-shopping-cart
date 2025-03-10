@@ -9,6 +9,7 @@
   float:left;
   overflow:hidden !important;
   overflow-y:auto !important;
+  direction: inherit !important;
 }
 
 .infinite-list > *:first-child {
@@ -34,8 +35,16 @@
   box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.list-item:lang(ar) {
-  direction: rtl;
+.list-item-alternate {
+  background: #fffceb;
+  border: 1px solid #fffceb;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  max-height:200px;
+  display:flex !important;
+  flex-direction: row;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .list-item:hover,

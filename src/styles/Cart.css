@@ -1,0 +1,18 @@
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+}
+.cart-item {
+    width: 95vw;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ffd92e;
+    margin: 7px;
+    align-self: center;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 60px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px  rgba(0, 0, 0, 0.3);
+}

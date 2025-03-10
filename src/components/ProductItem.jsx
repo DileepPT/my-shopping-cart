@@ -13,12 +13,16 @@ const ProductItem = ({index,style}) => {
         navigateTo(NAV_PATH.PRODUCT_DETAILS.replace('$id',products[index].id),products[index]);
     }
 
+    const getItemStyle = ()=>{
+        return index % 2 === 0 ? 'list-item' : 'list-item-alternate';
+    }
+
     return (
-        <div className='list-item' key={index} style={style} onClick={handleItemSelection}>
+        <div className= {getItemStyle()} key={index} style={style} onClick={handleItemSelection}>
             { products[index] ? (
                 <>
                 <img className='img-product' src={products[index].thumbnail}></img>
-                <div className='content-list'>
+                <div className= 'content-list'>
                     <label className='title'>{products[index] ? products[index].title : 'Loading...'}</label>
                     <label className='subtitle'>{translate('iPrice')}: {products[index].price} AED</label>
                     <label className='subtitle'>{translate('iDescription')}:</label>

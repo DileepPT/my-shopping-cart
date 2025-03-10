@@ -17,7 +17,10 @@ const i18nResource = {
             iSubmit: "Save",
             iPurchase: "Purchase",
             iPrice: "Price",
-            iAuthor: '@Developed by dileep.p.t'
+            iAuthor: '@Developed by dileep.p.t',
+            iOrders: 'My Orders',
+            iCount:'Count',
+            iTotal:'Total'
         },
     },
     ar: {
@@ -35,7 +38,10 @@ const i18nResource = {
             iSubmit: "يحفظ",
             iPurchase: "شراء",
             iPrice: "سعر",
-            iAuthor: '@ تم التطوير بواسطة dileep.p.t'
+            iAuthor: '@ تم التطوير بواسطة dileep.p.t',
+            iOrders: 'طلباتي',
+            iCount:'عدد',
+            iTotal:'المجموع'
         },
     }
 };
